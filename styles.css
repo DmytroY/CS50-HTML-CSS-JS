@@ -1,0 +1,186 @@
+body{
+    background: #000000;
+    color: #ffffff;
+    /*
+    width: 100%;
+    text-align: center;
+    outline: 1px solid #ffffff;
+    padding: 10px;
+    margin: 0 auto;
+    */
+}
+
+#user_message_form {
+  /* Расположим форму по центру страницы */
+  font: 1em;
+  margin: 0 auto;
+  width: 80%;
+  /* Определим контур формы */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+textarea
+{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  /* Стилизуем границы полей */
+  border: 1px solid #999;
+}
+
+a{
+  font-size: large;
+}
+
+input:focus,
+textarea:focus
+{
+  /* Дополнительная подсветка для элементов в фокусе */
+  border-color: #000;
+}
+
+input, textarea
+{
+  /* Убедимся, что все поля имеют одинаковые настройки шрифта
+     По умолчанию в textarea используется моноширинный шрифт */
+  font: 1em sans-serif;
+}
+  
+#wrapper{
+    width: 100%;
+    /*outline: 1px solid #ffffff;*/
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#pre-header{
+    text-align: center;
+    font-size: 2em;
+    height: 300px;
+    //margin-bottom: 10px;
+}
+
+#header{
+    text-align: center;
+    font-size: 2.5em;;
+    font-weight: bold;
+    height: 60px;
+    //margin-bottom: 20px;
+}
+/*
+#sidebarR{
+    text-align: center;
+    font-size: 1.8em;
+    //height:80px;
+    outline: 1px solid #ffffff;
+    //background-color: #cccccc;
+    //font-size: small;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 20%;
+    float: right;
+}
+*/
+
+#content{
+    width: 100%;
+    text-align: left;
+    font-size: 2em;
+    
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:0;
+}
+
+button {
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+
+#youtube{
+    height: 400px;
+    width: 70%;
+}
+
+#pre-footer{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    //margin: 0 auto;
+    //height: 50px;
+}
+
+#footer{
+    width: 100%;
+    margin: 0 auto;
+    height: 45px;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    color:#ffffff;
+    background: #888888;
+    //margin-bottom: 10px;
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: right;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 10s;
+  animation-name: fade;
+  animation-duration: 10s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
